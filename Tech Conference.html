@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Future 2025-Innovate&Elevate</title>
+</head>
+<body>
+    <header>
+        <h1>Tech Future 2025-Innovate&Elevate</h1>
+        <p>Join us for an immersive Tech conference where the Future meets Innovtion.</p>
+    </header>
+    <section>
+        <h2>Event Highlights</h2>
+
+        <h3>Keynote Speakers:</h3>
+        <ul>
+            <li>Mishell Mumbua- AI Ethics</li>
+            <li>Sammy Wambua- Cyber security Expert</li>
+            <li>Ronald kipchirchir- DevOps Culture</li>
+        </ul>
+
+        <h3>Top 3 Sessions You Can't Miss:</h3>
+        <ol>
+            <li>Future of Artificial Intelligence</li>
+            <li>Protecting Sensitive Data</li>
+            <li>Continuous Delivery in 2025</li>
+        </ol>
+    </section>
+
+    <section>
+    <h2>Conference Schedule</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Topic</th>
+                <th>Speaker</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>09:00 AM</td>
+                <td>AI & Machine Learning</td>
+                <td>Mishell Mumbua</td>
+            </tr>
+            <tr>
+                <td>11:00 AM</td>
+                <td>Cyber Threats</td>
+                <td>Sammy Wambua</td>
+            </tr>
+            <tr>
+                <td>02:00 PM</td>
+                <td>DevOps Culture & Tools</td>
+                <td>Ronald Kipchirchir</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h2>Register for the Conference</h2>
+    <form action="/submit-form" method="POST">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com"><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="0712345678"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Session Preferences</legend>
+            <label for="session">Choose a session:</label>
+            <select id="session" name="session" required>
+                <option value="">--Select--</option>
+                <option value="ai">AI & Machine Learning</option>
+                <option value="cloud">Cloud Infrastructure</option>
+                <option value="devops">DevOps Culture</option>
+            </select><br><br>
+
+            <label>Receive Event Updates:</label><br>
+            <input type="radio" id="updates-yes" name="updates" value="yes" required>
+            <label for="updates-yes">Yes</label>
+            <input type="radio" id="updates-no" name="updates" value="no">
+            <label for="updates-no">No</label><br><br>
+        </fieldset>
+
+        <input type="submit" value="Register">
+    </form>
+</section>
+    
+</body>
+</html>
