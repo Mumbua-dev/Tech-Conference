@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #a4d3ee, #f36da5); /* A lovely pink gradient background */
+    color: #4b4b4b; /* A soft, dark grey for text color */
+    line-height: 1.6;
+}
+
+/* Header with a little personality */
+header {
+    text-align: center;
+    background-color: #ffe6f2; /* A pale pink for the header */
+    color: #c90076; /* A pop of deep pink for the title */
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 5px solid #ff9cc8;
+    box-shadow: 0 4px 10px rgba(255, 105, 180, 0.2);
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive; /* A fun, handwritten-style font for the main title */
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 0.5rem;
+}
+
+/* Let's make all the sections feel like cute cards with rounded corners */
+section {
+    background-color: #98a6d3;
+    margin: 2rem auto;
+    padding: 2rem;
+    width: 85%;
+    max-width: 900px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px; /* Super rounded corners for a soft shape */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: translateY(-5px); /* A little lift effect on hover for fun */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Colorful headings to make things pop */
+h2 {
+    font-family: 'Pacifico', cursive;
+    color: #c90076;
+    font-size: 2rem;
+    border-bottom: 2px solid #ffb3d9;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-weight: 700;
+    color: #a3006a;
+}
+
+/* Styling lists to be more fun */
+ul, ol {
+    padding-left: 20px;
+    list-style-type: '🌸 '; /* A cute floral bullet point! */
+}
+ol {
+    list-style-type: '⭐ '; /* A star for the numbered list! */
+}
+
+li {
+    margin-bottom: 0.75rem;
+    padding-left: 5px;
+}
+
+/* Giving the table a cute and clean look */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 1.5rem;
+    border-radius: 15px; /* Rounded corners for the table */
+    overflow: hidden; /* This hides the default sharp corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+    border: none; /* Let's remove the harsh borders */
+    padding: 15px;
+    text-align: center;
+}
+
+thead {
+    background-color: #ffb3d9; /* A light pink header */
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fce1e4; /* Alternating soft colors for rows */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Form styling to match the theme */
+form {
+    padding: 1rem;
+}
+
+fieldset {
+    border: 2px dashed #ffb3d9; /* A dashed border for a fun look */
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 20px; /* Rounded corners on the fieldset */
+}
+
+legend {
+    font-weight: 700;
+    color: #c90076;
+    padding: 0 10px;
+    background-color: #ffe6f2;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ffb3d9;
+    border-radius: 10px; /* Rounded input fields */
+    box-sizing: border-box;
+    background-color: #fff8f8;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Cute button styling */
+input[type="submit"] {
+    display: block;
+    width: 50%;
+    margin: 2rem auto 0;
+    background: linear-gradient(45deg, #ff9cc8, #c90076); /* A lovely gradient on the button */
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 30px; /* A pill-shaped button! */
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.4);
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.05); /* The button grows slightly on hover */
+    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.6);
+}
